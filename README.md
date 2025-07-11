@@ -6,8 +6,8 @@ with the intention of learning more about full stack development and web design
 
 ### 1.0.0
 - Create a landing page with a hero section, header, and footer
-- Create a navbar in the header, containing links to contact, faq, rooms, and about pages
-- Create the pages linked in the navbar; each has a consistent navbar/header and footer that link to each other
+<!-- - Create a navbar in the header, containing links to contact, faq, rooms, and about pages -->
+<!-- - Create the pages linked in the navbar; each has a consistent navbar/header and footer that link to each other -->
 - Create a "Book Room" page and buttons placed prominently on the other pages so you can reach the booking page from any other page
 
 
