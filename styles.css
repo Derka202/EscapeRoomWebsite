@@ -125,9 +125,12 @@ p {
     justify-content: center;
     height: auto;
     margin: 2rem;
+    margin-top: 3rem;
 }
 
 .footerInfo p {
     font-family: 'Crimson Text', serif;
     font-size: 1rem;
+    margin: none;
+    padding: none;
 }
