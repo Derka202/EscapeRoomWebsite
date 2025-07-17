@@ -27,7 +27,6 @@
    ========================= */
 *{
     background-color: transparent;
-    color: #fdf5e6;
     position: relative;
 }
 
@@ -81,23 +80,63 @@ nav li:first-child {
     margin-right: auto;
 }
 
-.hero {
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: var(--background); */
     position: relative;
-    width: 100dvw;
-    height: 950px;
-    background: url('/img/cryptex.png') no-repeat center center/cover;
-    z-index: 0;
+    align-items: center;
+    background-image: url('img/cryptex.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 30%;
 }
 
-.hero::after {
-    content: '';
+.hero-container::before {
+    content: "";
     position: absolute;
     inset: 0;
-    width: 100%;
-    background: var(--background);
-    opacity: 0.5;
+    background: rgba(17, 17, 17, 0.5); /* 0.5 = 50% opacity */
     z-index: 1;
     pointer-events: none;
+}
+
+/* .hero-image {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 50px);
+    z-index: 1;
+    object-fit: cover;
+    overflow: hidden;
+} */
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    font-size: clamp(60px, 10vw, 150px);
+    color: var(--text);
+    z-index: 2;
+    text-align: center;
+    margin: 2.5rem;
+    margin-top: 6rem;
+}
+
+h2 {
+    font-family: 'Crimson Text', serif;
+    position: relative;
+    font-size: clamp(45px, 7.5vw, 120px);
+    z-index: 2;
+    color: var(--crimson-bright);
+    /* text-shadow: 1px 1px 1px var(--crimson-dark),
+        1px -1px 1px var(--crimson-dark),
+        -1px -1px 1px var(--crimson-dark),
+        -1px 1px 1px var(--crimson-dark); */
+    text-align: center;
+    margin: 2rem;
+    margin-bottom: 4rem;
 }
 
 h1, h2, h3, p, a, button, ul, li {
@@ -107,37 +146,21 @@ h1, h2, h3, p, a, button, ul, li {
     z-index: 2;
 }
 
-h1 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 800;
-    font-size: 12rem;
-    width: 100%;
-    text-align: center;
-    padding-top: 12rem;
-}
-
-h2 {
-    font-family: 'Crimson Text', serif;
-    font-weight: 600;
-    font-size: 6rem;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 1rem;
-    color: var(--crimson-bright);
-}
-
 p {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: clamp(5px, 3vw, 30px);
+    text-align: center;
+    color: var(--text);
+    line-height: 1.5;
 }
 
 .blurb {
-    /*border: #8B0000 2px solid;*/
+    color: var(--text);
     width: 75%;
+
     position: relative;
-    margin: 2rem auto 0 auto;
+    margin: 5% auto 5% auto;
     padding-top: 2rem;
 }
 
