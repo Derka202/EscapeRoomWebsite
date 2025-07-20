@@ -90,7 +90,7 @@ nav li:first-child {
     background-color: rgba(17, 17, 17, 0.5);
     backdrop-filter: blur(10px);
     box-shadow: 2px 0px 15px -1px var(--navbarshadow);
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
