@@ -107,6 +107,15 @@ nav li:first-child {
     margin-right: 0;
 }
 
+nav ul svg {
+    fill: var(--text);
+    transition: all 0.2s ease;
+}
+
+nav ul svg:hover {
+    fill: var(--crimson-bright);
+}
+
 @media (max-width: 910px) {
     .hide-on-mobile {
         display: none;
