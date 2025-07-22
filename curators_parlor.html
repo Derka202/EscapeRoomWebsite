@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lock & Ledger</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script type="text/javascript" src="../scripts.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px">
+                        <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                    </svg>
+                </a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+            <ul>
+                <li><a href="index.html">Lock & Ledger</a></li>
+                <li class="hide-on-mobile"><a href="about.html">About</a></li>
+                <li class="hide-on-mobile"><a href="rooms.html">Rooms</a></li>
+                <li class="hide-on-mobile"><a href="contact.html">Contact</a></li>
+                <li class="hide-on-mobile"><a href="faq.html">FAQ</a></li>
+                <li class="hide-on-pc" onclick=showSidebar()><a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                    </svg>
+                </a></li>
+            </ul>
+        </nav>
+        <div class="room-title-container">
+            <div class="title">
+                <h1>The Curator's Parlor</h1>
+            </div>
+            <div class="room-image-container">
+                <img class="room-image" src="/img/curators_parlor.png">
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2>Room Description</h2>
+        <div class="blurb">
+            <p>Beneath the velvet drapes and polished veneer of the museum's private wing lies more than a collection — it's a puzzle curated in secrets. The room is lavish, the artifacts eclectic, and the curator? Gone without a trace. You haven't broken in to steal, but to right a wrong: a priceless antiquity has been stolen and hidden among the legitimate exhibits. As shadows gather and questions mount, you must navigate the curator's trail of cryptic clues and recover the missing treasure — before it disappears again.</p>
+        </div>
+        <div class="room-details">
+            <h2>Room Details</h2>
+            <ul>
+                <li>Difficulty: 3/5</li>
+                <li>Duration: 60 minutes</li>
+                <li>Capacity: 4-6 players</li>
+                <li>Recommended Age: 8+</li>
+            </ul>
+    </main>
+    <footer>
+        <div class="footerBookingButton">
+            <a class="button" href="book.html">Book Now</a>
+        </div>
+        <div class="footerInfo">
+            <p>Website created by Peter Gallagher</p>
+            <p>Updated 7/11/2025</p>
+        </div>
+    </footer>
+</body>
+</html>
