@@ -155,6 +155,22 @@ nav ul svg:hover {
     pointer-events: none;
 }
 
+.room-image-container {
+    width: clamp(300px, 85%, 2048px);
+    height: clamp(200px, 30vw, 450px);
+    justify-self: center;
+    margin: 2rem;
+    overflow: hidden;
+}
+
+.room-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
 h1 {
     font-family: 'Playfair Display', serif;
     position: relative;
@@ -172,10 +188,6 @@ h2 {
     font-size: clamp(45px, 7.5vw, 120px);
     z-index: 2;
     color: var(--crimson-bright);
-    /* text-shadow: 1px 1px 1px var(--crimson-dark),
-        1px -1px 1px var(--crimson-dark),
-        -1px -1px 1px var(--crimson-dark),
-        -1px 1px 1px var(--crimson-dark); */
     text-align: center;
     margin: 2rem;
     margin-bottom: 4rem;
@@ -200,9 +212,8 @@ p {
 .blurb {
     color: var(--text);
     width: 75%;
-
     position: relative;
-    margin: 5% auto 5% auto;
+    margin: 0% auto 5% auto;
     padding-top: 2rem;
 }
 
@@ -221,6 +232,22 @@ a.button {
   display: flex;           /* Preserve your layout */
   justify-content: center;
   align-items: center;
+}
+
+.room-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 1rem auto;
+}
+
+.room-details li {
+    list-style: circle;
+    font-size: clamp(5px, 3vw, 30px); 
+    margin: 1rem;
 }
 
 .button {
