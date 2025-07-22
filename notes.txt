@@ -1,17 +1,25 @@
 Room ideas:
 - Sherlock's Study
-    Solve a murder from inside a Victorian study filled with clues, chemistry, and conspiracies.
+    Description: Solve a murder from inside a Victorian study filled with clues, chemistry, and conspiracies.
+    Theme: Murder mystery
 - Cold War Safe House
-    A mid-century setting in Berlin, Moscow, or D.C.—perhaps involving deciphering intel, unmasking a mole, or stopping a nuclear exchange.
+    Description: A mid-century setting in Berlin, Moscow, or D.C.—perhaps involving deciphering intel, unmasking a mole, or stopping a nuclear exchange.
+    Theme: Espionage/Discover the truth and escape
 - The Clockmaker's Secret
-    An old 19th-century horologist has died under mysterious circumstances. His workshop is full of intricate gears, encoded diagrams, and one final invention no one has ever seen working... until now.
+    Description: An old 19th-century horologist has died under mysterious circumstances. His workshop is full of intricate gears, encoded diagrams, and one final invention no one has ever seen working... until now.
+    Theme: time centric riddle(s)/ 'Metaphysical' puzzle?/ paradox
 - The Alchemist's Library
-    Set in a Renaissance-era study of a secretive scholar. Is he a proto-scientist? A charlatan? A hidden door behind his bookshelf suggests the truth was dangerous enough to hide
+    Description: Set in a Renaissance-era study of a secretive scholar. Is he a proto-scientist? A charlatan? A hidden door behind his bookshelf suggests the truth was dangerous enough to hide
+    Theme: Discovery/ secrets of science
 - The Curator's Parlor 
-    An art historian has vanished. The gallery's private parlor hides a tangled trail of stolen artifacts, obscure art movements, and a hidden ledger of illicit dealings.
+    Description: An art historian has vanished. The gallery's private parlor hides a tangled trail of stolen artifacts, obscure art movements, and a hidden ledger of illicit dealings.
+    Theme: Heist/ recovery mission
 - The Ministry Room
-    Inside a 1940s government office, you’ve intercepted a classified message. But there are multiple codes—and one may be a trap. Can you decrypt the real intel before time runs out?
+    Description: Inside a 1940s government office, you’ve intercepted a classified message. But there are multiple codes—and one may be a trap. Can you decrypt the real intel before time runs out?
+    Theme: Paranoia/ tension/ nationalism?
 - The Botanist's Conservatory
-    Set in a lush Edwardian greenhouse with exotic plants, cryptic journals, and a missing researcher. You’ll uncover natural science, Victorian occultism, and possibly a buried secret.
+    Description: Set in a lush Edwardian greenhouse with exotic plants, cryptic journals, and a missing researcher. You’ll uncover natural science, Victorian occultism, and possibly a buried secret.
+    Theme: Exploration/ discovery in nature/ creeping unease
 - The Monuments Vault
-    Inspired by the Monuments Men. You’ve infiltrated a shadowy manor in occupied France to recover a stolen masterpiece before it’s smuggled away or destroyed. Every drawer, frame, and floorboard may hide a clue—or a trap.
+    Description: Inspired by the Monuments Men. You’ve infiltrated a shadowy manor in occupied France to recover a stolen masterpiece before it’s smuggled away or destroyed. Every drawer, frame, and floorboard may hide a clue—or a trap.
+    Theme: Historical preservation/ race against time
