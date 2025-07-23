@@ -1,0 +1,62 @@
+[
+    {
+        "title" : "The Alchemist's Library",
+        "name" : "alchemists_library",
+        "short_description" : "Explore the lair of a Renaissance alchemist and discover the forgotten secrets of his research.",
+        "long_description" : "Tucked within the stone halls of a forgotten villa lies the private library of an enigmatic Renaissance alchemist. The air is thick with dust, candle wax, and the faint tang of old metals. Stacked tomes whisper secrets of transformation, celestial alignments, and cryptic experiments — the line between science and sorcery blurred with every inked margin. But one shelf bears marks of disturbance, revealing a passage concealed for centuries. Was he a visionary silenced by fear, or a fraud hiding something more sinister? Step into the mystery and uncover the truth lying hidden behind the bookcase.",
+        "imageURL" : "img/alchemists_library.png",
+        "pageURL" : "alchemists_library.html",
+        "difficulty" : "3/5",
+        "duration" : "60 minutes",
+        "capacity" : "2-4 players",
+        "age": "12+"
+    },
+    {
+        "title" : "The Clockmaker's Secret",
+        "name" : "clockmakers_secret",
+        "short_description" : "Unravel the mysteries a skilled but eccentric clockmaker designed and built into his work.",
+        "long_description" : "Tucked away in a quiet Alpine town stands a forgotten workshop, its tick-tock heartbeat long silenced. You've received a cryptic letter from the late Horatio Bellamy, a reclusive horologist whose timepieces were rumored to do far more than mark the hour. His final invention — a clock said to conceal a secret capable of altering the course of history — was never found. Inside, brass gears and velvet-lined drawers whisper of precision, legacy, and danger. But the mechanism is already in motion, and the hands are turning. Can you uncover what Horatio hid before time runs out?",
+        "imageURL" : "img/clockmakers_secret.png",
+        "pageURL" : "clockmakers_secret.html",
+        "difficulty" : "5/5",
+        "duration" : "60 minutes",
+        "capacity" : "2-6 players",
+        "age": "16+"
+    },
+    {
+        "title" : "The Curator's Parlor",
+        "name" : "curators_parlor",
+        "short_description" : "Hunt down a priceless antiquity hidden among the legitimate exhibits in a private museum.",
+        "long_description" : "Beneath the velvet drapes and polished veneer of the mansion's private wing lies more than an art collection — it's a puzzle curated in secrets. The room is lavish, the artifacts eclectic, and the curator? Gone without a trace. You haven't broken in to steal, but to right a wrong: a priceless antiquity has been stolen and hidden among the exhibits. As shadows gather and questions mount, you must navigate the curator's trail of cryptic clues and recover the missing treasure — before it disappears again.",
+        "imageURL" : "img/curators_parlor.png",
+        "pageURL" : "curators_parlor.html",
+        "difficulty" : "3/5",
+        "duration" : "75 minutes",
+        "capacity" : "4-6 players",
+        "age": "8+"
+    },
+    {
+        "title" : "Safehouse",
+        "name" : "safehouse",
+        "short_description" : "Find out what happened to a missing double agent who failed to make a scheduled rendezvous in Berlin, 1963.",
+        "long_description" : "The year is 1963. In a nondescript apartment tucked away behind the Iron Curtain, you've been summoned by an old acquaintance — a double agent who's gone silent. What was once a covert drop point and safehouse is now eerily abandoned, save for a coded message and a ticking countdown to extraction. /nAs the Gestapo close in and you hurry to discover the reason behind your agent's disappearance, secrets buried in old dossiers, scrambled radio transmissions, and Cold War paranoia begin coming to light. Is this a trap? A test? Or the last chance to stop something far worse? /nYour mission: uncover your contact's fate, decipher their final message, and escape unseen before the safehouse is raided and your window closes — for good.",
+        "imageURL" : "img/safehouse.png",
+        "pageURL" : "safehouse.html",
+        "difficulty" : "3/5",
+        "duration" : "60 minutes",
+        "capacity" : "2-4 players",
+        "age": "12+"
+    },
+    {
+        "title" : "Sherlock's Study",
+        "name" : "sherlocks_study",
+        "short_description" : "Step into the mind of the world's greatest detective and solve a mystery that has baffled even him.",
+        "long_description" : "A locked door. A silent study. A death that doesn't quite add up. Step into a richly detailed Victorian study layered with books, artifacts, and secrets buried in plain sight. With Sherlock Holmes missing, your old military friend John Watson M.D. has turned to you for help figuring out what really happened. You and your team must navigate the traces left behind—cryptic ciphers, forgotten correspondence, and unsettling clues that suggest foul play. But time is not on your side; the truth lies hidden in shadow, and only a sharp mind can bring it to light. Will you unravel the mystery before the killer strikes again?",
+        "imageURL" : "img/sherlocks_study.png",
+        "pageURL" : "sherlocks_study.html",
+        "difficulty" : "4/5",
+        "duration" : "60 minutes",
+        "capacity" : "2-6 players",
+        "age": "15+"
+    }
+]
