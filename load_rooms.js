@@ -11,14 +11,14 @@ document.addEventListener("DOMContentLoaded", () => {
         roomTitle.textContent = title;
         roomCard.appendChild(roomTitle);
 
-        const room_description = document.createElement('p');
-        room_description.textContent = description;
-        roomCard.appendChild(room_description);
-
         const roomImage = document.createElement('img');
         roomImage.src = imageURL;
         roomImage.alt = title + ' image';
         roomCard.appendChild(roomImage);
+
+        const room_description = document.createElement('p');
+        room_description.textContent = description;
+        roomCard.appendChild(room_description);
 
         const roomLink = document.createElement('a');
         roomLink.href = pageURL;
