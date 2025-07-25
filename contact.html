@@ -8,50 +8,53 @@
     <script type="text/javascript" src="scripts.js"></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class="sidebar">
-                <li onclick=hideSidebar()><a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px">
-                        <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
-                    </svg>
-                </a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="rooms.html">Rooms</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-            </ul>
-            <ul>
-                <li><a href="index.html">Lock & Ledger</a></li>
-                <li class="hide-on-mobile"><a href="about.html">About</a></li>
-                <li class="hide-on-mobile"><a href="rooms.html">Rooms</a></li>
-                <li class="hide-on-mobile"><a href="#">Contact</a></li>
-                <li class="hide-on-mobile"><a href="faq.html">FAQ</a></li>
-                <li class="hide-on-pc" onclick=showSidebar()><a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px">
-                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
-                    </svg>
-                </a></li>
-            </ul>
-        </nav>
-        <div class="title">
-            <h1>Contact Us</h1>
-        </div>       
-    </header>
-    <main>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px">
+                    <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                </svg>
+            </a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="rooms.html">Rooms</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">Lock & Ledger</a></li>
+            <li class="hide-on-mobile"><a href="about.html">About</a></li>
+            <li class="hide-on-mobile"><a href="rooms.html">Rooms</a></li>
+            <li class="hide-on-mobile"><a href="#">Contact</a></li>
+            <li class="hide-on-mobile"><a href="faq.html">FAQ</a></li>
+            <li class="hide-on-pc" onclick=showSidebar()><a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                </svg>
+            </a></li>
+        </ul>
+    </nav>
+    <div id="page-content">
+        <header>
+            <div class="title">
+                <h1>Contact Us</h1>
+            </div>       
+        </header>
+        <main>
 
-        <div class="blurb">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laborum totam repudiandae similique iure, ut eaque tempore rerum expedita quam dicta minima reiciendis voluptatem officia fuga illum veritatis atque perspiciatis!</p>
-        </div>
-    </main>
-    <footer>
-         <div class="footerBookingButton">
-            <a class="button" href="book.html">Book Now</a>
-        </div>
-        <div class="footerInfo">
-            <p>Website created by Peter Gallagher</p>
-            <p>Updated 7/11/2025</p>
-        </div>
-    </footer>
+            <div class="blurb">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laborum totam repudiandae similique iure, ut eaque tempore rerum expedita quam dicta minima reiciendis voluptatem officia fuga illum veritatis atque perspiciatis!</p>
+            </div>
+        </main>
+        <footer>
+            <div class="footerBookingButton">
+                <a class="button" href="book.html">Book Now</a>
+            </div>
+            <div class="footerInfo">
+                <p>Website created by Peter Gallagher</p>
+                <p>Updated 7/11/2025</p>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="adjust_header.js"></script>
 </body>
 </html>

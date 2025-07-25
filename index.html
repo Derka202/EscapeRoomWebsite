@@ -9,55 +9,58 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul class="sidebar">
-                <li onclick=hideSidebar()><a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px">
-                        <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
-                    </svg>
-                </a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="rooms.html">Rooms</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Lock & Ledger</a></li>
-                <li class="hide-on-mobile"><a href="about.html">About</a></li>
-                <li class="hide-on-mobile"><a href="rooms.html">Rooms</a></li>
-                <li class="hide-on-mobile"><a href="contact.html">Contact</a></li>
-                <li class="hide-on-mobile"><a href="faq.html">FAQ</a></li>
-                <li class="hide-on-pc" onclick=showSidebar()><a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px">
-                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
-                    </svg>
-                </a></li>
-            </ul>
-        </nav>
-        <div class="hero-container">
-            <div class="title">
-                <h1>Lock & Ledger</h1>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px">
+                    <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                </svg>
+            </a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="rooms.html">Rooms</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Lock & Ledger</a></li>
+            <li class="hide-on-mobile"><a href="about.html">About</a></li>
+            <li class="hide-on-mobile"><a href="rooms.html">Rooms</a></li>
+            <li class="hide-on-mobile"><a href="contact.html">Contact</a></li>
+            <li class="hide-on-mobile"><a href="faq.html">FAQ</a></li>
+            <li class="hide-on-pc" onclick=showSidebar()><a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                </svg>
+            </a></li>
+        </ul>
+    </nav>
+    <div id="page-content"></div>
+        <header>
+            <div class="hero-container">
+                <div class="title">
+                    <h1>Lock & Ledger</h1>
+                </div>
+                <div class="subtitle">
+                    <h2>Premium Escape Rooms</h2>
+                </div>
             </div>
-            <div class="subtitle">
-                <h2>Premium Escape Rooms</h2>
-            </div>
-        </div>
-    </header>
-    <main>
+        </header>
+        <main>
 
-        <div class="blurb">
-            <p>Welcome to Lock and Ledger, a curated escape room experience where history, mystery, and intellect converge. Each room is meticulously designed to immerse you in a richly detailed period world. From solving a murder in a wood-paneled study to perusing forgotten archives to discover a secret of science, or seeking a priceless piece of art in a shadowy gallery, there are mysteries to intrigue all. Challenge your wits, trust your instincts, and step into the world of discovery. Do you and your team have what it takes to uncover the truth before time runs out?</p>
-        </div>
-    </main>
-    <footer>
-        <div class="footerBookingButton">
-            <a class="button" href="book.html">Book Now</a>
-        </div>
-        <div class="footerInfo">
-            <p>Website created by Peter Gallagher</p>
-            <p>Updated 7/11/2025</p>
-        </div>
-    </footer>
+            <div class="blurb">
+                <p>Welcome to Lock and Ledger, a curated escape room experience where history, mystery, and intellect converge. Each room is meticulously designed to immerse you in a richly detailed period world. From solving a murder in a wood-paneled study to perusing forgotten archives to discover a secret of science, or seeking a priceless piece of art in a shadowy gallery, there are mysteries to intrigue all. Challenge your wits, trust your instincts, and step into the world of discovery. Do you and your team have what it takes to uncover the truth before time runs out?</p>
+            </div>
+        </main>
+        <footer>
+            <div class="footerBookingButton">
+                <a class="button" href="book.html">Book Now</a>
+            </div>
+            <div class="footerInfo">
+                <p>Website created by Peter Gallagher</p>
+                <p>Updated 7/11/2025</p>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="adjust_header.js"></script>
 </body>
 </html>
