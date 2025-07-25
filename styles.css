@@ -27,12 +27,12 @@
    ========================= */
 *{
     background-color: transparent;
-    position: relative;
 }
 
 body, html {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 body {
@@ -174,8 +174,7 @@ nav ul svg:hover {
 .room-container {
     width: 85%;
     height: auto;
-    position: relative;
-    overflow: hidden;  
+    position: relative;  
 }
 
 .room-card {
