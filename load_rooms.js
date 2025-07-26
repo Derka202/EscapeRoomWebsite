@@ -7,23 +7,26 @@ document.addEventListener("DOMContentLoaded", () => {
         const roomCard = document.createElement('div');
         roomCard.classList.add('room-card');
 
-        const roomTitle = document.createElement('h3');
-        roomTitle.textContent = title;
-        roomCard.appendChild(roomTitle);
-
+        const link = document.createElement('a');
+        link.href = pageURL;
+        roomCard.appendChild(link);
+                
         const roomImage = document.createElement('img');
         roomImage.src = imageURL;
         roomImage.alt = title + ' image';
-        roomCard.appendChild(roomImage);
+        link.appendChild(roomImage);
+
+        const roomTitle = document.createElement('h3');
+        roomTitle.textContent = title;
+        link.appendChild(roomTitle);
+
+        const descriptionElement = document.createElement('div');
+        descriptionElement.classList.add('card-description');
+        link.appendChild(descriptionElement);
 
         const room_description = document.createElement('p');
         room_description.textContent = description;
-        roomCard.appendChild(room_description);
-
-        const roomLink = document.createElement('a');
-        roomLink.href = pageURL;
-        roomLink.textContent = 'View Room';
-        roomCard.appendChild(roomLink);
+        descriptionElement.appendChild(room_description);
 
         return roomCard;
     }
