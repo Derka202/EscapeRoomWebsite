@@ -3,13 +3,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const roomContainer = document.getElementById('room-container');
 
 
-    function createRoomCard(title, description, imageURL, pageURL) {
+    function createRoomCard(title, description, imageURL, name) {
         const roomCard = document.createElement('div');
         roomCard.classList.add('room-card');
 
         const link = document.createElement('a');
         link.classList.add('room-link');
-        link.href = pageURL;
+        link.href = `room_details.html?name=${name}`;
         roomCard.appendChild(link);
                 
         const roomImage = document.createElement('img');
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         room.title,
                         room.short_description,
                         room.imageURL,
-                        room.pageURL
+                        room.name
                     );
                     roomContainer.appendChild(card);
                 });
