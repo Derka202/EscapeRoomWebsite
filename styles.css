@@ -244,7 +244,7 @@ nav ul svg:hover {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.room-card::after {
+.room-link::after {
     content: "";
     position: absolute;
     top: 0; left: 0;
@@ -255,7 +255,7 @@ nav ul svg:hover {
     z-index: 1; /* Below text but above image */
 }
 
-.room-card:hover::after {
+.room-link:hover::after {
     background-color: rgba(0, 0, 0, 0.4); /* Dark overlay on hover */
 }
 

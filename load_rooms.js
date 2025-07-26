@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
         roomCard.classList.add('room-card');
 
         const link = document.createElement('a');
+        link.classList.add('room-link');
         link.href = pageURL;
         roomCard.appendChild(link);
                 
