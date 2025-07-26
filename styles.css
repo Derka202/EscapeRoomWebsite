@@ -309,6 +309,7 @@ p {
 .blurb p {
     text-align: center;
     display: block;
+    text-indent: 25px;;
 }
 
 a {
@@ -367,6 +368,12 @@ a.button {
 
 .footerBookingButton {
     width: 20rem;
+    justify-self: center;
+    margin: 4rem;
+}
+
+.footerFeedbackButton {
+    width: 23rem;
     justify-self: center;
     margin: 4rem;
 }
