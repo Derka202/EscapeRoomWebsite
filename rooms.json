@@ -63,7 +63,7 @@
         "title" : "Safehouse",
         "name" : "safehouse",
         "short_description" : "Find out what happened to a missing double agent who failed to make a scheduled rendezvous in Berlin, 1963.",
-        "long_description" : "The year is 1963. In a nondescript apartment tucked away behind the Iron Curtain, you've been summoned by an old acquaintance — a double agent who's gone silent. What was once a covert drop point and safehouse is now eerily abandoned, save for a coded message and a ticking countdown to extraction. /nAs the Gestapo close in and you hurry to discover the reason behind your agent's disappearance, secrets buried in old dossiers, scrambled radio transmissions, and Cold War paranoia begin coming to light. Is this a trap? A test? Or the last chance to stop something far worse? /nYour mission: uncover your contact's fate, decipher their final message, and escape unseen before the safehouse is raided and your window closes — for good.",
+        "long_description" : "The year is 1963. In a nondescript apartment tucked away behind the Iron Curtain, you've been summoned by an old acquaintance — a double agent who's gone silent. What was once a covert drop point and safehouse is now eerily abandoned, save for a coded message and a ticking countdown to extraction. \n\r\n\rAs the Gestapo close in and you hurry to discover the reason behind your agent's disappearance, secrets buried in old dossiers, scrambled radio transmissions, and Cold War paranoia begin coming to light. Is this a trap? A test? Or the last chance to stop something far worse? \n\r\n\rYour mission: uncover your contact's fate, decipher their final message, and escape unseen before the safehouse is raided and your window closes — for good.",
         "imageURL" : "img/safehouse.png",
         "pageURL" : "safehouse.html",
         "difficulty" : "3/5",
@@ -72,7 +72,7 @@
         "age": "12+"
     },
     {
-        "title" : "The Mounments Vault",
+        "title" : "The Monuments Vault",
         "name" : "monuments_vault",
         "short_description" : "Recover a pricelss artifact stolen by the Nazis and hidden in a run-down French chateau.",
         "long_description" : "Buried beneath the marble floors of a crumbling French manor lies a hidden cache of stolen culture — paintings, sculptures, and secrets spirited away under the chaos of war. You are part of a covert unit racing to recover a masterpiece marked for destruction. But the enemy is clever, and every clue is buried beneath layers of deception, paranoia, and booby-trapped opulence. With time running short and history hanging in the balance, can you unearth the treasure before it vanishes forever?",
