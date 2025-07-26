@@ -24,6 +24,18 @@
         "age": "16+"
     },
     {
+        "title" : "The Botanist's Conservatory",
+        "name" : "botanists_conservatory",
+        "short_description" : "Explore a hidden greenhouse filled with exotic plants and uncover the secrets of a reclusive botanist.",
+        "long_description" : "Sunlight filters through misted glass, casting shifting patterns over tangled vines and forgotten tools. The Botanist’s Conservatory once brimmed with rare flora and whispered theories — a crossroads of Victorian science and something stranger. Its caretaker, an eccentric naturalist, vanished without warning, leaving only cryptic journals and suspiciously thriving specimens. As you explore the overgrown paths and wilted secrets, you begin to wonder: were the plants merely studied… or cultivated for something more? \nStep inside, and tread carefully — something is still growing.",
+        "imageURL" : "img/botanists_conservatory.png",
+        "pageURL" : "botanists_conservatory.html",
+        "difficulty" : "4/5",
+        "duration" : "60 minutes",
+        "capacity" : "2-6 players",
+        "age": "12+"
+    },
+    {
         "title" : "The Curator's Parlor",
         "name" : "curators_parlor",
         "short_description" : "Hunt down a priceless antiquity hidden among the legitimate exhibits in a private museum.",
@@ -34,6 +46,18 @@
         "duration" : "75 minutes",
         "capacity" : "4-6 players",
         "age": "8+"
+    },
+    {
+        "title" : "Sherlock's Study",
+        "name" : "sherlocks_study",
+        "short_description" : "Step into the study of the world's greatest detective and solve a mystery that would challenge even him.",
+        "long_description" : "A locked door. A silent study. A death that doesn't quite add up. Step into a richly detailed Victorian study layered with books, artifacts, and secrets buried in plain sight. With Sherlock Holmes missing, your old military friend John Watson M.D. has turned to you for help figuring out what really happened. You and your team must navigate the traces left behind—cryptic ciphers, forgotten correspondence, and unsettling clues that suggest foul play. But time is not on your side; the truth lies hidden in shadow, and only a sharp mind can bring it to light. Will you unravel the mystery before the killer strikes again?",
+        "imageURL" : "img/sherlocks_study.png",
+        "pageURL" : "sherlocks_study.html",
+        "difficulty" : "4/5",
+        "duration" : "60 minutes",
+        "capacity" : "2-6 players",
+        "age": "15+"
     },
     {
         "title" : "Safehouse",
@@ -48,16 +72,16 @@
         "age": "12+"
     },
     {
-        "title" : "Sherlock's Study",
-        "name" : "sherlocks_study",
-        "short_description" : "Step into the mind of the world's greatest detective and solve a mystery that has baffled even him.",
-        "long_description" : "A locked door. A silent study. A death that doesn't quite add up. Step into a richly detailed Victorian study layered with books, artifacts, and secrets buried in plain sight. With Sherlock Holmes missing, your old military friend John Watson M.D. has turned to you for help figuring out what really happened. You and your team must navigate the traces left behind—cryptic ciphers, forgotten correspondence, and unsettling clues that suggest foul play. But time is not on your side; the truth lies hidden in shadow, and only a sharp mind can bring it to light. Will you unravel the mystery before the killer strikes again?",
-        "imageURL" : "img/sherlocks_study.png",
-        "pageURL" : "sherlocks_study.html",
+        "title" : "The Mounments Vault",
+        "name" : "monuments_vault",
+        "short_description" : "Recover a pricelss artifact stolen by the Nazis and hidden in a run-down French chateau.",
+        "long_description" : "Buried beneath the marble floors of a crumbling French manor lies a hidden cache of stolen culture — paintings, sculptures, and secrets spirited away under the chaos of war. You are part of a covert unit racing to recover a masterpiece marked for destruction. But the enemy is clever, and every clue is buried beneath layers of deception, paranoia, and booby-trapped opulence. With time running short and history hanging in the balance, can you unearth the treasure before it vanishes forever?",
+        "imageURL" : "img/monuments_vault.png",
+        "pageURL" : "monuments_vault.html",
         "difficulty" : "4/5",
-        "duration" : "60 minutes",
-        "capacity" : "2-6 players",
-        "age": "15+"
+        "duration" : "60 minutes", 
+        "capacity" : "2-4 players",
+        "age": "14+"
     },
     {
         "title" : "The Ministry Room",
@@ -70,29 +94,5 @@
         "duration" : "60 minutes",
         "capacity" : "2-4 players",
         "age": "16+"
-    },
-    {
-        "title" : "The Botanist's Conservatory",
-        "name" : "botanists_conservatory",
-        "short_description" : "Explore a hidden greenhouse filled with exotic plants and uncover the secrets of a reclusive botanist.",
-        "long_description" : "Sunlight filters through misted glass, casting shifting patterns over tangled vines and forgotten tools. The Botanist’s Conservatory once brimmed with rare flora and whispered theories — a crossroads of Victorian science and something stranger. Its caretaker, an eccentric naturalist, vanished without warning, leaving only cryptic journals and suspiciously thriving specimens. As you explore the overgrown paths and wilted secrets, you begin to wonder: were the plants merely studied… or cultivated for something more? \nStep inside, and tread carefully — something is still growing.",
-        "imageURL" : "img/botanists_conservatory.png",
-        "pageURL" : "botanists_conservatory.html",
-        "difficulty" : "4/5",
-        "duration" : "60 minutes",
-        "capacity" : "2-6 players",
-        "age": "12+"
-    },
-    {
-        "title" : "The Mounments Vault",
-        "name" : "monuments_vault",
-        "short_description" : "Recover a pricelss artifact stolen by the Nazis and hidden in a run-down French chateau.",
-        "long_description" : "Buried beneath the marble floors of a crumbling French manor lies a hidden cache of stolen culture — paintings, sculptures, and secrets spirited away under the chaos of war. You are part of a covert unit racing to recover a masterpiece marked for destruction. But the enemy is clever, and every clue is buried beneath layers of deception, paranoia, and booby-trapped opulence. With time running short and history hanging in the balance, can you unearth the treasure before it vanishes forever?",
-        "imageURL" : "img/monuments_vault.png",
-        "pageURL" : "monuments_vault.html",
-        "difficulty" : "4/5",
-        "duration" : "60 minutes", 
-        "capacity" : "2-4 players",
-        "age": "14+"
     }
 ]
