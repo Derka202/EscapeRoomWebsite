@@ -33,26 +33,30 @@
             </a></li>
         </ul>
     </nav>
-    <div id="page-content">
-        <header>
-            <div class="title">
-                <h1>Rooms</h1>
-            </div>       
-        </header>
-        <main>
-            <div id="room-container" class="room-container"></div>
-            <script src="load_rooms.js"></script>
-        </main>
+    <div id="page-content" class="page-content">
+        <div class="content-above-footer">
+            <header>
+                <div class="title">
+                    <h1>Rooms</h1>
+                </div>       
+            </header>
+            <main>
+                <div id="room-container" class="room-container"></div>
+                <script src="load_rooms.js"></script>
+            </main>
+        </div>
         <footer>
             <div class="footerBookingButton">
                 <a class="button" href="book.html">Book Now</a>
             </div>
             <div class="footerInfo">
-                <p>Website created by Peter Gallagher</p>
-                <p>Updated 7/11/2025</p>
+                <p id="creator"></p>
+                <p id="edit_date"></p>
             </div>
         </footer>
     </div>
+    <script type="text/javascript" src="scripts.js"></script>
     <script type="text/javascript" src="adjust_header.js"></script>
+    <script type="text/javascript" src="populate_footer.js"></script>
 </body>
 </html>

@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lock & Ledger</title>
     <link rel="stylesheet" href="../styles.css">
-    <script type="text/javascript" src="../scripts.js"></script>
 </head>
 
 <body>
@@ -34,28 +33,32 @@
             </a></li>
         </ul>
     </nav>
-    <div id="page-content">
-        <header>
-            <div class="room-title-container"></div>
-        </header>
-        <main>
-            <h2>Room Description</h2>
-            <div class="blurb"></div>
-            <div class="room-details">
-                <h2>Room Details</h2>
-            </div>
-        </main>
+    <div id="page-content" class="page-content">
+        <div class="content-above-footer">
+            <header>
+                <div class="room-title-container"></div>
+            </header>
+            <main>
+                <h2>Room Description</h2>
+                    <div class="blurb"></div>
+                    <div class="room-details">
+                        <h2>Room Details</h2>
+                    </div>
+            </main>
+        </div>
         <footer>
             <div class="footerBookingButton">
                 <a class="button" href="book.html">Book Now</a>
             </div>
             <div class="footerInfo">
-                <p>Website created by Peter Gallagher</p>
-                <p>Updated 7/11/2025</p>
+                <p id="creator"></p>
+                <p id="edit_date"></p>
             </div>
         </footer>
     </div>
+    <script type="text/javascript" src="../scripts.js"></script>
     <script type="text/javascript" src="../load_room_details.js"></script>
     <script type="text/javascript" src="../adjust_header.js"></script>
+    <script type="text/javascript" src="populate_footer.js"></script>
 </body>
 </html>

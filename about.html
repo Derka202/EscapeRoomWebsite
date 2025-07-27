@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lock & Ledger</title>
     <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" src="scripts.js"></script>
 </head>
 <body>
     <nav>
@@ -33,28 +32,31 @@
             </a></li>
         </ul>
     </nav>
-    <div id="page-content">
-        <header>
-            <div class="title">
-                <h1>About Our Business</h1>
-            </div>       
-        </header>
-        <main>
-
-            <div class="blurb">
-                <p>Unfortunately, Lock and Ledger is not yet an existing escape room business; this website is only a project I undertook between my junior and senior year of college to teach myself about web design. However, if this looks like something you would be interested in (or if you have any other feedback, including about the design of the website), please fill out the feedback form below. Who knows… if enough people express interest, perhaps Lock and Ledger could become a real business in the future!</p>
-            </div>
-        </main>
+    <div id="page-content" class="page-content">
+        <div class="content-above-footer">
+            <header>
+                <div class="title">
+                    <h1>About Our Business</h1>
+                </div>       
+            </header>
+            <main>
+                <div class="blurb">
+                    <p>Unfortunately, Lock and Ledger is not yet an existing escape room business; this website is only a project I undertook between my junior and senior year of college to teach myself about web design. However, if this looks like something you would be interested in (or if you have any other feedback, including about the design of the website), please fill out the feedback form below. Who knows… if enough people express interest, perhaps Lock and Ledger could become a real business in the future!</p>
+                </div>
+            </main>
+        </div>
         <footer>
             <div class="footerFeedbackButton">
                 <a class="button" href="feedback.html">Give Feedback</a>
             </div>
             <div class="footerInfo">
-                <p>Website created by Peter Gallagher</p>
-                <p>Updated 7/11/2025</p>
+                <p id="creator"></p>
+                <p id="edit_date"></p>
             </div>
         </footer>
     </div>
+    <script type="text/javascript" src="scripts.js"></script>
     <script type="text/javascript" src="adjust_header.js"></script>
+    <script type="text/javascript" src="populate_footer.js"></script>
 </body>
 </html>

@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lock & Ledger</title>
     <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" src="scripts.js"></script>
 </head>
 
 <body>
@@ -34,33 +33,36 @@
             </a></li>
         </ul>
     </nav>
-    <div id="page-content"></div>
-        <header>
-            <div class="hero-container">
-                <div class="title">
-                    <h1>Lock & Ledger</h1>
+    <div id="page-content" class="page-content"></div>
+        <div class="content-above-footer">
+            <header>
+                <div class="hero-container">
+                    <div class="title">
+                        <h1>Lock & Ledger</h1>
+                    </div>
+                    <div class="subtitle">
+                        <h2>Premium Escape Rooms</h2>
+                    </div>
                 </div>
-                <div class="subtitle">
-                    <h2>Premium Escape Rooms</h2>
+            </header>
+            <main>
+                <div class="blurb">
+                    <p>Welcome to Lock and Ledger, a curated escape room experience where history, mystery, and intellect converge. Each room is meticulously designed to immerse you in a richly detailed period world. From solving a murder in a wood-paneled study to perusing forgotten archives to discover a secret of science, or seeking a priceless piece of art in a shadowy gallery, there are mysteries to intrigue all. Challenge your wits, trust your instincts, and step into the world of discovery. Do you and your team have what it takes to uncover the truth before time runs out?</p>
                 </div>
-            </div>
-        </header>
-        <main>
-
-            <div class="blurb">
-                <p>Welcome to Lock and Ledger, a curated escape room experience where history, mystery, and intellect converge. Each room is meticulously designed to immerse you in a richly detailed period world. From solving a murder in a wood-paneled study to perusing forgotten archives to discover a secret of science, or seeking a priceless piece of art in a shadowy gallery, there are mysteries to intrigue all. Challenge your wits, trust your instincts, and step into the world of discovery. Do you and your team have what it takes to uncover the truth before time runs out?</p>
-            </div>
-        </main>
+            </main>
+        </div>
         <footer>
             <div class="footerBookingButton">
                 <a class="button" href="book.html">Book Now</a>
             </div>
             <div class="footerInfo">
-                <p>Website created by Peter Gallagher</p>
-                <p>Updated 7/11/2025</p>
+                <p id="creator"></p>
+                <p id="edit_date"></p>
             </div>
         </footer>
     </div>
+    <script type="text/javascript" src="scripts.js"></script>
     <script type="text/javascript" src="adjust_header.js"></script>
+    <script type="text/javascript" src="populate_footer.js"></script>
 </body>
 </html>
