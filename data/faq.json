@@ -1,0 +1,22 @@
+[
+    {
+        "Q" : "Are these real escape rooms I can visit?",
+        "A" : "Not quite! Lock & Ledger is a fictional brand created to showcase web development, design, and branding skills. The rooms, puzzles, and booking system are all part of an immersive portfolio project — there's no physical location (yet!)."
+    },
+    {
+        "Q" : "Why build a fake escape room site?",
+        "A" : "Because what better way to combine storytelling, UX, interactive design, and technical skill than with an experience built around mystery and puzzles? This project serves as both a creative outlet and a demonstration of front-end (and in the future, potentially back-end) development."
+    },
+    {
+        "Q" : "Who made Lock & Ledger?",
+        "A" : "This project was developed by Peter Gallagher, a computer science student and puzzle enthusiast. If you'd like to know more or collaborate, feel free to reach out via the contact page or LinkedIn."
+    },
+    {
+        "Q" : "Are the room ideas and stories original?",
+        "A" : "Yes (mostly)! Each room concept, description, and challenge, despite falling into common escape room 'genres', is crafted or tweaked to suit the tone of the brand. Even though they're fictional, they reflect real-world puzzle design and narrative development that would go into actual escape rooms."
+    },
+    {
+        "Q" : "Can I use this site or its code for inspiration?",
+        "A" : "Absolutely — feel free to explore the site for ideas or development patterns. Just please don't copy it wholesale without attribution (especially since it's also part of a portfolio). Please note that since it is also a learning project for me, the developement patterns are not necessarily ideal or standard practice."
+    }
+]
