@@ -1,5 +1,5 @@
 function load_footer_data() {
-    fetch('site_info.json')
+    fetch('../data/site_info.json')
         .then(response => response.json())
         .then(data => {
             const footer = data.find(d => d.data === "footer_info")

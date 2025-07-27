@@ -1,5 +1,5 @@
 function load_room (name) {
-    fetch('rooms.json')
+    fetch('../data/rooms.json')
         .then(response => response.json())
         .then(data => {
             const room = data.find(r => r.name === name);

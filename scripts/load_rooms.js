@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     function loadRooms() {
-        fetch('rooms.json')
+        fetch('../data/rooms.json')
             .then(response => response.json())
             .then(rooms  => {
                 rooms.forEach(room => {
